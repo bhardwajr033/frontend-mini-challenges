@@ -1,18 +1,19 @@
 import React from "react";
 import "./App.css";
-import Card from "./components/Card";
-
-const cardList = ["Counter", "Guess The Number","a","b","c"];
+import HomePage from "./pages/HomePage";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Counter from "./pages/Counter";
+import GuessTheNumber from "./pages/GuessTheNumber";
 
 function App() {
-  const cards = cardList.map((cardName) => {
-    return <Card cardName={cardName} />;
-  });
   return (
-    <>
-      <h1>FrontEnd Mini Challenges</h1>
-      <div className="card-container">{cards}</div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Counter" element={<Counter />} />
+        <Route path="/GuessTheNumber" element={<GuessTheNumber />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

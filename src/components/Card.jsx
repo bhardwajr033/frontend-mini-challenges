@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Card(props) {
-    return ( 
-        <div className="card">
-            {props.cardName}
-        </div>
-     );
+  const navigate = useNavigate();
+
+  return (
+    <div
+      className="card"
+      onClick={() => {
+        navigate(props.navigateTo);
+      }}
+    >
+      {props.cardName}
+    </div>
+  );
 }
 
 export default Card;
