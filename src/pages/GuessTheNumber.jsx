@@ -18,6 +18,7 @@ function GuessTheNumber() {
   const handleSubmit = () => {
     if (parseInt(inputValueRef.current.value) === randomNumber) {
       setResultMessage("You Got it");
+      setGameOn(false);
     } else if (parseInt(inputValueRef.current.value) < randomNumber) {
       setResultMessage("Too Loo!");
     } else {
@@ -46,10 +47,25 @@ function GuessTheNumber() {
           }}
         />
         <div className="button-controls">
-          <button className="btn submit" onClick={handleSubmit}>
+          <button
+            className="btn submit"
+            onClick={handleSubmit}
+            disabled={!isGameON}
+          >
             Submit
           </button>
-          <button className="btn start">Start Game</button>
+          <button
+            className="btn start"
+            onClick={() => {
+              setGameOn(true);
+              setrandomNumber(generateRandomNumber(100));
+              inputValueRef.current.value = "";
+              setGussedNumbers("");
+            }}
+            disabled={isGameON}
+          >
+            Start Game
+          </button>
         </div>
         <div>{resultMessage}</div>
         <div>Your Guesses : {gussedNumbers}</div>
