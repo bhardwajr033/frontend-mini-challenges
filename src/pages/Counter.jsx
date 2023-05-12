@@ -15,7 +15,7 @@ function Counter() {
         <div className="counter-value">
           <span className="count-value">{count}</span>
         </div>
-        <div className="counter-controls">
+        <div className="button-controls">
           <button onClick={() => updateCount(true)} className="btn increment">
             +
           </button>
