@@ -1,0 +1,22 @@
+:root {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  flex-wrap: wrap;
+  row-gap: calc(100vw*0.01);
+}
+
+.card {
+  background-color: beige;
+  height: 8rem;
+  width: 24%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
