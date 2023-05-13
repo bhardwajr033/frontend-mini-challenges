@@ -8,6 +8,8 @@ function NavBar({ pageHeading }) {
       <button
         className="btn home"
         onClick={() => {
+          document.body.style.background = "white";
+          document.body.style.color = "black";
           navigate("/");
         }}
       >
