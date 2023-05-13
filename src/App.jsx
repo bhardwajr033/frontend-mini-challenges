@@ -8,6 +8,7 @@ import TelephoneFormatter from "./pages/TelephoneFormatter";
 import LightAndDarkMode from "./pages/lightAndDarkMode";
 import ToastPopUp from "./pages/ToastPopUp";
 import CssShapes from "./pages/CssShapes";
+import PasswordStrength from "./pages/PasswordStrength";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/LightAndDarkMode" element={<LightAndDarkMode />} />
         <Route path="/ToastPopUp" element={<ToastPopUp />} />
         <Route path="/CssShapes" element={<CssShapes />} />
+        <Route path="/PasswordStrength" element={<PasswordStrength />} />
       </Routes>
     </BrowserRouter>
   );

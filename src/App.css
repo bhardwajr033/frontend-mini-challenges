@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .card-container {
   display: flex;
   flex-direction: row;
@@ -221,4 +227,21 @@
   100% {
     transform: rotate(306deg);
   }
+}
+
+.password-strength {
+  align-items: center;
+}
+
+.password-strength input {
+  font-size: 1.5rem;
+  width: 25rem;
+}
+
+.password-strength .strength-bar {
+  width: 25rem;
+  border: 1px solid gray;
+  height: 1rem;
+  background-color: beige;
+  border-radius: 1rem;
 }

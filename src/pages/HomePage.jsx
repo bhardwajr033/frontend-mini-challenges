@@ -8,6 +8,7 @@ const cardList = [
   { cardName: "Light & Dark mode", navigateTo: "/LightAndDarkMode" },
   { cardName: "Toast Popup", navigateTo: "/ToastPopUp" },
   { cardName: "CSS Shapes", navigateTo: "/CssShapes" },
+  { cardName: "Password Strength", navigateTo: "/PasswordStrength" },
 ];
 
 function HomePage() {
