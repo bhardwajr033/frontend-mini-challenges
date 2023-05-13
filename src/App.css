@@ -232,3 +232,10 @@
   background-color: beige;
   border-radius: 1rem;
 }
+
+.star-container{
+  margin-top: 2rem;
+  gap: 5px;
+  width: fit-content;
+  align-self: center;
+}
