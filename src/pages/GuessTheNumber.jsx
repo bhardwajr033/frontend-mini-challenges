@@ -30,7 +30,7 @@ function GuessTheNumber() {
   return (
     <>
       <NavBar pageHeading="Guess the Number" />
-      <div className="guess-the-number">
+      <div className="flex-column guess-the-number">
         <label>Enter a guess between 0 to 100</label>
         <input
           ref={inputValueRef}

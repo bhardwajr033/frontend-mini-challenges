@@ -71,7 +71,7 @@ function ToastPopUp() {
   return (
     <>
       <NavBar pageHeading="Toast Popup" />
-      <div className="toast-popup">
+      <div className="flex-column toast-popup">
         <div>
           <select
             onChange={({ target }) => {
@@ -124,7 +124,7 @@ function ToastPopUp() {
             }}
           />
         </div>
-        <div className="input-duration">
+        <div className="flex-row input-duration">
           <span>Duration</span>
           <input
             type="range"

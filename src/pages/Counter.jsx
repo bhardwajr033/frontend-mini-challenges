@@ -11,11 +11,11 @@ function Counter() {
   return (
     <>
       <NavBar pageHeading="Counter" />
-      <div className="counter">
+      <div className="flex-column counter">
         <div className="counter-value">
           <span className="count-value">{count}</span>
         </div>
-        <div className="button-controls">
+        <div className="flex-row button-controls">
           <button onClick={() => updateCount(true)} className="btn increment">
             +
           </button>

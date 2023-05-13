@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function NavBar({ pageHeading }) {
   const navigate = useNavigate();
   return (
-    <div className="nav-bar">
+    <div className="flex-row nav-bar">
       <button
         className="btn home"
         onClick={() => {

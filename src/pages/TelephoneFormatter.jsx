@@ -26,7 +26,7 @@ function TelephoneFormatter() {
   return (
     <>
       <NavBar pageHeading="Telephone Formatter" />
-      <div className="telephone-formatter">
+      <div className="flex-column telephone-formatter">
         <input
           value={teleNumber}
           onChange={(event) => {

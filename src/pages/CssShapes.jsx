@@ -44,7 +44,7 @@ function CssShapes() {
   return (
     <>
       <NavBar pageHeading="CSS Shapes" />
-      <div className="css-shapes">
+      <div className="flex-row css-shapes">
         <div className="shape-box">
           <h2>Square</h2>
           <div style={ShapeStyle.square}></div>

@@ -6,7 +6,7 @@ function Card(props) {
 
   return (
     <div
-      className="card"
+      className="flex-column card"
       onClick={() => {
         navigate(props.navigateTo);
       }}

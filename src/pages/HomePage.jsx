@@ -24,7 +24,7 @@ function HomePage() {
   return (
     <>
       <h1>FrontEnd Mini Challenges</h1>
-      <div className="card-container">{cards}</div>
+      <div className="flex-row card-container">{cards}</div>
     </>
   );
 }
