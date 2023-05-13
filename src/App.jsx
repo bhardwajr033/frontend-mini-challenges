@@ -6,6 +6,7 @@ import Counter from "./pages/Counter";
 import GuessTheNumber from "./pages/GuessTheNumber";
 import TelephoneFormatter from "./pages/TelephoneFormatter";
 import LightAndDarkMode from "./pages/lightAndDarkMode";
+import ToastPopUp from "./pages/ToastPopUp";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/GuessTheNumber" element={<GuessTheNumber />} />
         <Route path="/TelephoneFormatter" element={<TelephoneFormatter />} />
         <Route path="/LightAndDarkMode" element={<LightAndDarkMode />} />
+        <Route path="/ToastPopUp" element={<ToastPopUp />} />
       </Routes>
     </BrowserRouter>
   );

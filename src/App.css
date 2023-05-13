@@ -88,7 +88,7 @@
   border: 1px solid black;
 }
 
-.light-and-dark-mode{
+.light-and-dark-mode {
   text-align: left;
   padding-left: 2rem;
   height: 100vh;
@@ -98,4 +98,22 @@
 .container-dark-mode {
   border: 1px solid blue;
   padding: 1rem;
+}
+
+.toast-popup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 2rem;
+}
+
+.toast-popup select,
+.toast-popup input {
+  padding: 0.5rem;
+}
+
+.input-duration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -6,7 +6,7 @@ const cardList = [
   { cardName: "Guess The Number", navigateTo: "/GuessTheNumber" },
   { cardName: "Telephone formatter", navigateTo: "/TelephoneFormatter" },
   { cardName: "Light & Dark mode", navigateTo: "/LightAndDarkMode" },
-  { cardName: "Toast Popup", navigateTo: "/Counter" },
+  { cardName: "Toast Popup", navigateTo: "/ToastPopUp" },
 ];
 
 function HomePage() {
