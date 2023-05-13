@@ -66,10 +66,24 @@
   width: fit-content;
 }
 
-.guess-the-number{
+.guess-the-number {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
+}
+
+.telephone-formatter {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.telephone-formatter input{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid black;
 }

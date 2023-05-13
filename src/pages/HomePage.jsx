@@ -4,7 +4,7 @@ import Card from "../components/Card";
 const cardList = [
   { cardName: "Counter", navigateTo: "/Counter" },
   { cardName: "Guess The Number", navigateTo: "/GuessTheNumber" },
-  { cardName: "Telephone formatter", navigateTo: "/Counter" },
+  { cardName: "Telephone formatter", navigateTo: "/TelephoneFormatter" },
   { cardName: "Light & Dark mode", navigateTo: "/Counter" },
   { cardName: "Toast Popup", navigateTo: "/Counter" },
 ];
