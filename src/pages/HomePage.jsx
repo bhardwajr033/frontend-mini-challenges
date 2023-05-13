@@ -7,6 +7,7 @@ const cardList = [
   { cardName: "Telephone formatter", navigateTo: "/TelephoneFormatter" },
   { cardName: "Light & Dark mode", navigateTo: "/LightAndDarkMode" },
   { cardName: "Toast Popup", navigateTo: "/ToastPopUp" },
+  { cardName: "CSS Shapes", navigateTo: "/CssShapes" },
 ];
 
 function HomePage() {

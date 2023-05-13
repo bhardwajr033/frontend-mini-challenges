@@ -7,6 +7,7 @@ import GuessTheNumber from "./pages/GuessTheNumber";
 import TelephoneFormatter from "./pages/TelephoneFormatter";
 import LightAndDarkMode from "./pages/lightAndDarkMode";
 import ToastPopUp from "./pages/ToastPopUp";
+import CssShapes from "./pages/CssShapes";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/TelephoneFormatter" element={<TelephoneFormatter />} />
         <Route path="/LightAndDarkMode" element={<LightAndDarkMode />} />
         <Route path="/ToastPopUp" element={<ToastPopUp />} />
+        <Route path="/CssShapes" element={<CssShapes />} />
       </Routes>
     </BrowserRouter>
   );
